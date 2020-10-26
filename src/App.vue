@@ -1,5 +1,7 @@
 <template>
-  <DirectoryUploader id="test" :drop="true" />
+  <DirectoryUploader id="test" 
+    :drop="false" 
+    :origineEvent="false"/>
 </template>
 
 <script>
@@ -9,11 +11,19 @@ export default {
   name: 'App',
   components: {
     DirectoryUploader,
+  },
+
+  setup(){
+    //   const getdata = (data) => {}
+
+      return{
+        //   getdata
+      }
   }
 }
 </script>
 
 <style>
-@import './assets/css/style.css';
+
 
 </style>
