@@ -1,8 +1,7 @@
 {
   "name": "vue-directory-uploader",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": false,
-  "sideEffects": false,
   "description": "Simple directory upload button and dropzone",
   "author": "Proladon",
   "license": "MIT",
